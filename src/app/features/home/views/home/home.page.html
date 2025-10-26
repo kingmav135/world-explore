@@ -1,0 +1,302 @@
+
+<!--Header-->
+<div class="bg-world min-h-screen p-4 relative ">
+
+     <div class="absolute inset-0 bg-black/50"></div>
+     
+    <div class="flex flex-col z-10 relative">
+        <div class="flex justify-between items-center ">
+            <img src="images/world.svg" class="w-30 h-30" />
+        
+            <div class="flex gap-4 text-white items-center text-lg  bg-white/20 backdrop-blur-md px-4 py-2 rounded-lg hover:bg-white/30 transition">
+                <i class="fa-solid fa-user "></i>
+                <h1 class=" font-semibold">connexion</h1>
+            </div>
+        </div>
+
+        <div class="justify-center text-center mt-10">
+            <i class="fa-solid fa-globe text-9xl text-white"></i>
+            <h1 class="text-8xl text-white font-semibold mt-2">Explorer le monde</h1>
+            <h1 class="text-gray-100 text-2xl mt-4">Découvrez des cultures fascinantes, des paysages extraordinaires <br>
+                et des expériences inoubliables à travers la planète</h1>
+
+            <div class="mt-6">
+              <a routerLink="/search">
+                  <button
+                    class="mt-8 px-8 py-3 bg-gradient-to-r  items-center gap-2 from-blue-500 to-indigo-600 text-white font-semibold rounded-3xl shadow-lg hover:scale-105 transition transform">
+                    <i class="fa-solid fa-compass"></i>
+                    Commencer l’exploration
+                </button>
+              </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--section météo-->
+<div class="p-6 max-w-6xl mx-auto bg-gray-50 ">
+    <h2 class="mb-4 text-center font-bold text-5xl text-blue-600">Conditions Météo du Monde</h2>
+    <h1 class="text-lg mb-4 text-center text-gray-700">Restez informé des conditions météorologiques actuelles dans
+        différentes régions du monde.</h1>
+
+    <div class="grid grid-cols-3 justify-gap-6 mx-auto ">
+        <div class="bg-white rounded-3xl shadow-lg border border-gray-200 w-80 p-6 text-center">
+
+            <!-- Nom du lieu -->
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-bold text-gray-800">Paris</h2>
+
+            </div>
+
+            <!-- Icône météo -->
+            <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="Icône météo"
+                class="w-24 h-24 mx-auto mb-4 drop-shadow-md">
+
+            <!-- Température principale -->
+            <h3 class="text-6xl font-extrabold text-blue-500 mb-1">22°C</h3>
+            <p class="text-gray-600 text-lg mb-4 font-medium">Ciel dégagé ☀️</p>
+
+            <!-- Détails supplémentaires -->
+            <div class="grid grid-cols-3 text-sm text-gray-600 gap-2">
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-wind text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Vent</p>
+                    <p>10 km/h</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-droplet text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Humidité</p>
+                    <p>60%</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-gauge text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Pression</p>
+                    <p>1018 hPa</p>
+                </div>
+            </div>
+        </div>
+
+          <div class="bg-white rounded-3xl shadow-lg border border-gray-200 w-80 p-6 text-center">
+
+            <!-- Nom du lieu -->
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-bold text-gray-800">Paris</h2>
+
+            </div>
+
+            <!-- Icône météo -->
+            <img src="https://cdn-icons-png.flaticon.com/128/1163/1163657.png" alt="Icône météo"
+                class="w-24 h-24 mx-auto mb-4 drop-shadow-md">
+
+            <!-- Température principale -->
+            <h3 class="text-6xl font-extrabold text-blue-500 mb-1">19°C</h3>
+            <p class="text-gray-600 text-lg mb-4 font-medium">Forte pluie</p>
+
+            <!-- Détails supplémentaires -->
+            <div class="grid grid-cols-3 text-sm text-gray-600 gap-2">
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-wind text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Vent</p>
+                    <p>16 km/h</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-droplet text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Humidité</p>
+                    <p>80%</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-gauge text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Pression</p>
+                    <p>1070 hPa</p>
+                </div>
+            </div>
+        </div>
+
+          <div class="bg-white rounded-3xl shadow-lg border border-gray-200 w-80 p-6 text-center">
+
+            <!-- Nom du lieu -->
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-bold text-gray-800">Paris</h2>
+
+            </div>
+
+            <!-- Icône météo -->
+            <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="Icône météo"
+                class="w-24 h-24 mx-auto mb-4 drop-shadow-md">
+
+            <!-- Température principale -->
+            <h3 class="text-6xl font-extrabold text-blue-500 mb-1">22°C</h3>
+            <p class="text-gray-600 text-lg mb-4 font-medium">Ciel dégagé ☀️</p>
+
+            <!-- Détails supplémentaires -->
+            <div class="grid grid-cols-3 text-sm text-gray-600 gap-2">
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-wind text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Vent</p>
+                    <p>10 km/h</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-droplet text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Humidité</p>
+                    <p>60%</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-gauge text-blue-400 text-lg mb-1"></i>
+                    <p class="font-semibold">Pression</p>
+                    <p>1018 hPa</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--section découverte-->
+<div class="bg-white-50 max-w-6xl mx-auto p-6 bg-gray-50">
+    <h1 class="text-center font-bold text-5xl mb-4 text-blue-600 ">Lieux emblématiques du monde</h1>
+    <h2 class="text-lg mb-4 text-center text-gray-700">Trouvez les lieux emblématiques du monde</h2>
+    <div class="grid grid-cols-3 gap-8 mt-4">
+        <!--card1-->
+        <div class="rounded-md bg-white max-w-xl w-full h-76 relative">
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=60" 
+            class="w-full h-full rounded-xl object-cover" alt="">
+            <div class="absolute bottom-0 left-0 p-6 text-white">
+                <p class="text-2xl font-bold">La Tour Eiffel</p>
+                <div class="flex items-center text-sm mt-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2 class=" px-2 ">Paris, France</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="rounded-md bg-white max-w-xl w-full relative">
+            <img src="https://images.unsplash.com/photo-1587135941948-670b381f08ce?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470"
+            class="w-full h-full rounded-xl object-cover" alt="">
+            <div class="absolute bottom-0 left-0 p-6 text-white">
+                <p class="text-2xl font-bold">Taj Mahal</p>
+                <div class="flex items-center text-sm mt-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2 class=" px-2 ">Agra, Inde</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="rounded-md bg-white max-w-xl w-full relative">
+            <img src="https://images.unsplash.com/photo-1628353900470-0bd683a6946a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=387" 
+            class="w-full h-76 rounded-xl object-cover" alt="">
+            <div class="absolute bottom-0 left-0 p-6 text-white">
+                <p class="text-2xl font-bold">Statue de la liberté</p>
+                <div class="flex items-center text-sm mt-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2 class=" px-2 ">New York, Etats-Unis</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="rounded-md bg-white max-w-xl w-full relative">
+            <img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
+            class="w-full h-full rounded-xl object-cover" alt="">
+            <div class="absolute bottom-0 left-0 p-6 text-white">
+                <p class="text-2xl font-bold">Machu Picchu</p>
+                <div class="flex items-center text-sm mt-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2 class=" px-2 ">Cusco, Pérou</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="rounded-md bg-white max-w-xl w-full relative">
+            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
+            class="w-full h-full rounded-xl object-cover" alt="">
+            <div class="absolute bottom-0 left-0 p-6 text-white">
+                <p class="text-2xl font-bold">Grande Muraille</p>
+                <div class="flex items-center text-sm mt-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2 class=" px-2 ">Chine</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="rounded-md bg-white max-w-xl w-full relative">
+            <img src="https://images.trvl-media.com/lodging/21000000/20490000/20487800/20487796/160ce0d5.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+            class="w-full h-full rounded-xl object-cover" alt="">
+            <div class="absolute bottom-0 left-0 p-6 text-white">
+                <p class="text-2xl font-bold">Baie des Tortues</p>
+                <div class="flex items-center text-sm mt-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2 class=" px-2 ">Libreville, Gabon</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="py-16 bg-white-50">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold text-gray-800 mb-12">🍛 Cuisine Locale du Monde</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+      <!-- Carte 1 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-500">
+        <img
+          src="https://images.unsplash.com/photo-1630175860333-5131bda75071?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
+          alt="Paella Espagnole"
+          class="w-full h-56 object-cover"
+        />
+        <div class="p-6 text-left">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-1">Paella Espagnole</h3>
+          <p class="text-orange-500 font-medium mb-3">Espagne </p>
+          <p class="text-gray-600 leading-relaxed">
+            Un plat emblématique à base de riz, de fruits de mer, de poulet et d’épices colorées,
+            typique de la région de Valence.
+          </p>
+        </div>
+      </div>
+
+      <!-- Carte 2 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-500">
+        <img
+          src="https://img.cuisineaz.com/1280x720/2021/09/29/i180785-feuilles-de-manioc-au-riz.jpeg"
+          alt="Tacos Mexicains"
+          class="w-full h-56 object-cover"
+        />
+        <div class="p-6 text-left">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-1">Feuillles de manioc</h3>
+          <p class="text-orange-500 font-medium mb-3">Gabon</p>
+          <p class="text-gray-600 leading-relaxed">
+            Les feuilles de manioc, parfois appelées « feuilles de manioc », sont une base culinaire dans de nombreux plats africains,
+             notamment en Afrique centrale et de l'Ouest
+          </p>
+        </div>
+      </div>
+
+      <!-- Carte 3 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-500">
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+          alt="Ramen Japonais"
+          class="w-full h-56 object-cover"
+        />
+        <div class="p-6 text-left">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-1">Ramen Japonais</h3>
+          <p class="text-orange-500 font-medium mb-3">Japon </p>
+          <p class="text-gray-600 leading-relaxed">
+            Un bouillon savoureux à base de nouilles, accompagné de viande, d’œuf et de légumes.
+            Un symbole de la cuisine japonaise moderne.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer >
+    <div class="bg-gray-800 text-white p-6 mt-10">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy; 2024 WorldExplorer. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
